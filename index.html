@@ -8,5 +8,13 @@
   <body>
     <p>This is my testing repo.</p>
     <p>2nd commit testing</p>
+    <p id="sum"></p>
+    <script>
+      function sum(a, b) {
+        return a + b;
+      }
+      document.getElementById("sum").innerText =
+        "Sum of 5 and 3 is: " + sum(5, 3);
+    </script>
   </body>
 </html>
